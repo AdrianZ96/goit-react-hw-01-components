@@ -1,7 +1,7 @@
 import Items from './transactions.json'
 import './transaction.css'
 
-export const TransactionHistory = (items) => {
+export const TransactionHistory = () => {
 
     return (
         <table className="transaction-history">

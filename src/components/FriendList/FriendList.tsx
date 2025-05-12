@@ -3,12 +3,12 @@ import './FriendList.css';
 
 export const FriendList = () => {
     return (
-        <ul class="friend-list">
+        <ul className="friend-list">
             {Friends.map(({ avatar , name , isOnline , id }) => (
-                <li class="item" key={id}>
+                <li className="item" key={id}>
                 <span className={`status ${isOnline ? 'online' : 'offline'}`}></span>
-                <img class="avatar" src={avatar} alt="User avatar" width="48" />
-                <p class="name">{name}</p>
+                <img className="avatar" src={avatar} alt="User avatar" width="48" />
+                <p className="name">{name}</p>
               </li>
 
             ))} 
