@@ -6,7 +6,7 @@
   "homepage": "https://adrianz96.github.io/goit-react-hw-01-components",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --outDir docs",
     "lint": "eslint .",
     "preview": "vite preview"
   },

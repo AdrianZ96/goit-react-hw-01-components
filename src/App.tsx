@@ -33,11 +33,11 @@
 // }
 
 // export default App
-import { FriendList } from "./components/FriendList/FriendList.js"
-import { Profile } from "./components/Profile/Profile.js";
-import { Statistics } from "./components/Statistics/Statistics.js";
-import { TransactionHistory } from "./components/TransactionHistory/TransactionHistory.js"
-import './app.css';
+import { FriendList } from "./components/FriendList/FriendList.tsx"
+import { Profile } from "./components/Profile/Profile.tsx";
+import { Statistics } from "./components/Statistics/Statistics.tsx";
+import { TransactionHistory } from "./components/TransactionHistory/TransactionHistory.tsx"
+import './App.css';
 
 
 
